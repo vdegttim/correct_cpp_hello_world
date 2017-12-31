@@ -15,3 +15,6 @@ script:
   - qmake
   - make
   - ./hello_world
+  - ./hello_world > created.txt
+  - cmp --silent created.txt expected.txt || echo "files are different"; return 1
+
