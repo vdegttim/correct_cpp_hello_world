@@ -31,3 +31,7 @@
 *.out
 *.app
 *.pro.user
+Makefile
+Makefile.Debug
+Makefile.Release
+hello_world

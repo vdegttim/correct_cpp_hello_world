@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create expected result
+echo "Hello world" > expected.txt
+
+# Create the actual result
+./hello_world > created.txt
+
+# Compare the two
+cmp --silent created.txt expected.txt || echo "files are different"; exit 1

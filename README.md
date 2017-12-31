@@ -6,6 +6,13 @@
 
 Write a Hello world program.
 
+```
+int main()
+{
+  // Your code here
+}
+```
+
 The text should be literally `Hello world`, followed by newline.
 
 
