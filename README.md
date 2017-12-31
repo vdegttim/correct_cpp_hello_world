@@ -4,7 +4,7 @@
 
 ## Exercise
 
-Write a Hello world program.
+Write a 'Hello world' program.
 
 ```c++
 int main()
@@ -13,9 +13,12 @@ int main()
 }
 ```
 
-The text should be literally `Hello world`, followed by newline.
+The text should literally be `Hello world`, followed by newline. Do not use `std::endl` [1].
 
 ## External links
 
- * 
+ * [richelbilderbeek's Hello World page](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
 
+## References
+
+ * [1] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
