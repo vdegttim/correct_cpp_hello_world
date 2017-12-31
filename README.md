@@ -13,7 +13,11 @@ int main()
 }
 ```
 
-The text should literally be `Hello world`, followed by newline. Do not use `std::endl` [1].
+The text should literally be `Hello world`, followed by newline. 
+
+## Advice
+
+ * Do not use `std::endl` [1].
 
 ## External links
 
