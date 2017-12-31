@@ -35,3 +35,5 @@ Makefile
 Makefile.Debug
 Makefile.Release
 hello_world
+created.txt
+expected.txt

@@ -7,4 +7,10 @@ echo "Hello world" > expected.txt
 ./hello_world > created.txt
 
 # Compare the two
-cmp --silent created.txt expected.txt || echo "files are different"; exit 1
+if cmp --silent created.txt expected.txt; then
+  echo "Correct"
+  exit 0
+else
+  echo "Incorrect: files are different"
+  exit 1
+fi
