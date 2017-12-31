@@ -6,7 +6,7 @@
 
 Write a Hello world program.
 
-```
+```c++
 int main()
 {
   // Your code here
@@ -14,3 +14,8 @@ int main()
 ```
 
 The text should be literally `Hello world`, followed by newline.
+
+## External links
+
+ * 
+
