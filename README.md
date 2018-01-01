@@ -24,6 +24,7 @@ The text should literally be `Hello world`, followed by newline.
 ## External links
 
  * [richelbilderbeek's Hello World page](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
+ * [Qt Creator project file used in testing](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_world/main.pro)
 
 ## References
 
