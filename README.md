@@ -4,10 +4,12 @@
 
 ## Exercise
 
-Write a 'Hello world' program.
+Write a 'Hello world' program. 
+
+You'll start with:
 
 ```c++
-int main()
+main()
 {
   // Your code here
 }
