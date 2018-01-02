@@ -2,6 +2,14 @@
 
 [Correct C++](https://github.com/richelbilderbeek/correct_cpp) chapter 'Hello world'.
 
+## Goal
+
+ * Write a ['Hello world' program](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
+
+## Prerequisites
+
+ * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/how_this_course_works.md)
+
 ## Exercise
 
 Write a 'Hello world' program. 
@@ -17,13 +25,11 @@ main()
 
 The text should literally be `Hello world`, followed by newline. 
 
-## Advice
-
- * Do not use `std::endl` [1].
+ * Use [std::cout](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdCout.md)
+ * Do not use [std::endl](https://github.com/richelbilderbeek/cpp/blob/master/content/CppStdEndl.md) [1]
 
 ## External links
 
- * [richelbilderbeek's Hello World page](https://github.com/richelbilderbeek/cpp/blob/master/content/CppHelloWorld.md)
  * [Qt Creator project file used in testing](https://raw.githubusercontent.com/richelbilderbeek/correct_cpp/master/hello_world/main.pro)
 
 ## References
