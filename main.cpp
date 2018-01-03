@@ -1,29 +1,52 @@
-#include <string>
 #include <iostream>
+#include <string>
+#include <vector>
 
-int main(int argc, char* argv[]) 
+int main(int argc, char* argv[])
 {
   if (argc != 2) return 1;
   try
   {
     const int i{std::stoi(argv[1])};
+    if (i == 0)
+    {
+      std::cout << "false\n";
+      return 0;
+    }
+    //Collect the proper divisors
+    std::vector<int> v;
     if (i < 2)
     {
-      std::cout << "false\n"; return 0;
+      //v is okay as it is
     }
-    if (i == 2)
+    else if (i == 2)
     {
-      std::cout << "true\n"; return 0;
+      v.push_back(1);
     }
-    for (int j=2; j!=i-1; ++j)
+    else
     {
-      if (i % j == 0)
+      for (int j=1; j!=i-1; ++j)
       {
-        std::cout << "false\n";
-        return 0;
+        if (i % j == 0)
+        {
+          v.push_back(j);
+        }
       }
     }
-    std::cout << "true\n";
+    //sum the proper divisors
+    int sum{0};
+    for (const int j: v) { sum += j; }
+    //is it perfect?
+    const bool is_perfect{sum == i};
+    //show
+    if (is_perfect)
+    {
+      std::cout << "true\n";
+    }
+    else
+    {
+      std::cout << "false\n";
+    }
   }
   catch (const std::exception&)
   {
