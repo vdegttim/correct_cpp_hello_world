@@ -12,7 +12,7 @@ master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello
 
 ## Prerequisites
 
- * Understand [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/how_this_course_works.md)
+ * Have written [a correct 'hello' program](https://github.com/richelbilderbeek/correct_cpp_hello)
 
 ## Exercise
 
@@ -40,4 +40,3 @@ The text should literally be `Hello world`, followed by newline.
 
  * [1] [C++ Core Guidelines: SL.io.3: Prefer iostreams for I/O](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-streams)
  * [2] [C++ Core Guidelines: SL.io.50: Avoid endl](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rio-endl)
-
