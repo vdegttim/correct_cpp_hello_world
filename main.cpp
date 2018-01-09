@@ -1,7 +1,4 @@
-#include <iostream>
-
-/// hello_world main function
-int main()
+main()
 {
-  std::cout << "Hello world\n";
+
 }
