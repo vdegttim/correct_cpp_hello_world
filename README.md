@@ -12,6 +12,7 @@ master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello
 
 ## Prerequisites
 
+ * Know [how this course works](https://github.com/richelbilderbeek/correct_cpp/blob/master/doc/how_this_course_works.md)
  * Have written [a correct 'hello' program](https://github.com/richelbilderbeek/correct_cpp_hello)
 
 ## Exercise
