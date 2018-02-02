@@ -36,11 +36,3 @@ CONFIG(release, debug|release) {
   QMAKE_CXXFLAGS += -pg
   QMAKE_LFLAGS += -pg
 }
-
-# Use SFML, detected by test script
-CONFIG(sfml) {
-
-  message(sfml here)
-  # SFML
-  LIBS += -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
-}
