@@ -35,7 +35,7 @@ The text should literally be `Hello world`, followed by newline.
 
 ## External links
 
- * [Video how to do this chapter (mp4)](http://www.richelbilderbeek.nl/correct_cpp_hello_world.mp4)
+ * Video how to do this chapter: [YouTube](https://youtu.be/lRKFvq9JByA), [mp4](http://www.richelbilderbeek.nl/correct_cpp_hello_world.mp4)
  * [C++ Weekly: Episode 102: Learning "Modern C++" - 2: Hello World](https://youtu.be/juJaaCf_yKc): Similar video for Visual Studio
 
 ## References
